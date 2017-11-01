@@ -1,12 +1,11 @@
 
 x=['magical unicorn', 19, 'hello', 98.98, 'world']
 trueint=0
-truestr=1
+truestr=0
 
 if isinstance(x,list):
     sum = 0
     string = ''
-    concatination =''
     for stuff in x:
         if isinstance(stuff, int):
             sum = sum + stuff 
